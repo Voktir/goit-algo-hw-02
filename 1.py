@@ -43,3 +43,4 @@ if __name__ == "__main__":
                 sleep(1)
     except KeyboardInterrupt:
         print("Користувач зупинив програму.")
+        print("Користувач зупинив програму.")
