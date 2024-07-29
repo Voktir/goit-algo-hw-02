@@ -29,6 +29,7 @@ def process_request():
 if __name__ == "__main__":
     try:
         queue_dict['id'] = 1
+        # Починаємо роботу з порожньої черги заявок
         process_request()
         sleep(2)
         while True:
