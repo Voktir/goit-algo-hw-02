@@ -18,7 +18,8 @@ def test_brackets(inp_str):
 inp_str = [
     "( ){[ 1 ]( 1 + 3 )( ){ }}",
     "( 23 ( 2 - 3);",
-    "( 11 }"
+    "( 11 }",
+    "2*(a)/3"
 ]
 
 for s in inp_str:
